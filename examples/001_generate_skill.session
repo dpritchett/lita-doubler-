@@ -1,0 +1,30 @@
+$ lita handler doubler
+
+Do you want to test your plugin on Travis CI?
+  ("yes" or "no", default is "no") yes
+Do you want to generate code coverage information with SimpleCov
+  and Coveralls.io? ("yes" or "no", default is "no") yes
+If your plugin's Git repository will be hosted on GitHub, build status
+and code coverage badges can be automatically added to your README.
+Would you like to add these badges?
+  ("yes" or "no", default is "no") yes
+What is your GitHub username? dpritchett
+      create  lita-doubler/lib/lita/handlers/doubler.rb
+      create  lita-doubler/lib/lita-doubler.rb
+      create  lita-doubler/spec/lita/handlers/doubler_spec.rb
+      create  lita-doubler/spec/spec_helper.rb
+      create  lita-doubler/locales/en.yml
+      create  lita-doubler/templates/.gitkeep
+      create  lita-doubler/Gemfile
+      create  lita-doubler/lita-doubler.gemspec
+      create  lita-doubler/.gitignore
+      create  lita-doubler/.travis.yml
+      create  lita-doubler/Rakefile
+      create  lita-doubler/README.md
+If you plan to release this plugin as open source software, consider
+  adding a LICENSE file to the root of the repository.
+Common open source software licenses can be found
+  at http://choosealicense.com/.
+Remember, for badges to be displayed in your plugin's README, you must
+  host your project on GitHub. Additionally, you will need to configure
+  the project on Travis CI and Coveralls.io.
